@@ -1,9 +1,10 @@
 import './App.scss';
+import { Heading } from './styles/components/Heading';
 
 export function App() {
   return (
     <>
-      <h1>Olá Mundo</h1>
+      <Heading />
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores nam a
         inventore consectetur tenetur perferendis quis consequuntur harum
