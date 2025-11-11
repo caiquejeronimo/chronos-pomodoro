@@ -1,16 +1,21 @@
 import './App.scss';
 
 import { Container } from './components/Container/index';
-import { Heading } from './components/Heading/index';
+import { Logo } from './components/Logo/index';
+import { Menu } from './components/Menu/index';
+import { CountDown } from './components/CountDown/index';
 
 export function App() {
   return (
     <>
       <Container>
-        <Heading>LOGO</Heading>
+        <Logo />
       </Container>
       <Container>
-        <Heading>Menu</Heading>
+        <Menu />
+      </Container>
+      <Container>
+        <CountDown />
       </Container>
     </>
   );
