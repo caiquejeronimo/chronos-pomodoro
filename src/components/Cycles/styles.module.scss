@@ -1,0 +1,34 @@
+@import '../../styles/main.scss';
+
+.cicles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.cycleDots {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.cycleDot {
+  width: 2.4rem;
+  height: 2.4rem;
+  border-radius: 50%;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+.workTime {
+  background-color: $warning;
+}
+.shortBreakTime {
+  background-color: $primary;
+}
+
+.longBreakTime {
+  background-color: $info;
+}
