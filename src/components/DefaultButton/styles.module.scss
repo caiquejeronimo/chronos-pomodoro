@@ -1,0 +1,41 @@
+@import '../../styles/main.scss';
+
+.button {
+  border: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 22rem;
+  padding: 0.8rem;
+  border-radius: 0.8rem;
+  margin: 3.2rem 0;
+  cursor: pointer;
+
+  svg {
+    font-size: 3.2rem;
+  }
+}
+
+.red {
+  background-color: $error;
+  color: $text-over-error;
+
+  &:hover {
+    background-color: adjust-color($color: $error, $lightness: -10%, $alpha: 1);
+    transition: background-color ease-in-out 0.2s;
+  }
+}
+.green {
+  background-color: $primary;
+  color: $text-over-primary;
+
+  &:hover {
+    background-color: adjust-color(
+      $color: $primary,
+      $lightness: -10%,
+      $alpha: 1
+    );
+    transition: background-color ease-in-out 0.2s;
+  }
+}
