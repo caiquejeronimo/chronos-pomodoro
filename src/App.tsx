@@ -1,5 +1,3 @@
-import './App.scss';
-
 import { Container } from './components/Container/index';
 import { Logo } from './components/Logo/index';
 import { Menu } from './components/Menu/index';
@@ -9,6 +7,8 @@ import { Cycles } from './components/Cycles';
 import { DefaultButton } from './components/DefaultButton';
 import { PlayCircleIcon } from 'lucide-react';
 import { Footer } from './components/Footer';
+
+import './App.css';
 export function App() {
   return (
     <>
